@@ -85,6 +85,7 @@ export default function Home() {
             placeholder="content..."
             onChange={handleChange}
           />
+
           <div style={{ display: "flex", justifyContent: "center" }}>
             <button style={{ width: "70px", marginRight: "5px" }}>
               Submit

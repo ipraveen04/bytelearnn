@@ -3,16 +3,6 @@ import { Link as RouterLink, useNavigate } from "react-router-dom";
 import PostContext from "../context/postContext";
 
 export default function Home() {
-  //   const [post, setPost] = useState([
-  //     {
-  //       id: 0,
-  //       title: "Hello bytelearn",
-  //       category: "",
-  //       content: "",
-  //       like: false,
-  //     },
-  //   ]);
-
   const { posts } = useContext(PostContext);
   const navigate = useNavigate();
 

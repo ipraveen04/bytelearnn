@@ -34,13 +34,28 @@ export default function Home() {
 
   return (
     <>
-      <header style={{display: "flex", alignItems: "flex-start", flexDirection: "row", justifyContent:"space-between"}}>
+      <header
+        style={{
+          display: "flex",
+          alignItems: "flex-start",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
         <div>
           <button className="para-post" onClick={() => navigate("/")}>
             back to index
           </button>
         </div>
-        <div className="" style={{flexDirection: "row", display:"flex", justifyContent: "space-between", width:"150px"}}>
+        <div
+          className=""
+          style={{
+            flexDirection: "row",
+            display: "flex",
+            justifyContent: "space-between",
+            width: "150px",
+          }}
+        >
           <div>
             <button
               onClick={handleLike}

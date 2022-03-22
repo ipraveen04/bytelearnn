@@ -10,7 +10,6 @@ export default function EditPost() {
     ...posts[id],
   });
 
-  //   const { setPosts } = useContext(PostContext);
   const navigate = useNavigate();
 
   function handleChange(e) {
