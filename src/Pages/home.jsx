@@ -8,6 +8,7 @@ export default function Home() {
 
   return (
     <>
+    {/*  */}
       <header style={{ width: "100%" }}>
         <button
           onClick={() => navigate("/new")}

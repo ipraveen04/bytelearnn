@@ -10,6 +10,7 @@ export default function Home() {
     content: "",
     like: false,
   });
+  // 
 
   const { setPosts } = useContext(PostContext);
   const navigate = useNavigate();

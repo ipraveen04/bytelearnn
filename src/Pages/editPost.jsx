@@ -9,6 +9,7 @@ export default function EditPost() {
   const [newData, setNewData] = useState({
     ...posts[id],
   });
+// 
 
   const navigate = useNavigate();
 
